@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/* css 주석처리 */
+	table,tr,td,th{ /* 태그 선택 */
+		border : solid 2px green; /* 테두리 설정 : 선의종류(실선) 선의두께(1px) 선의색상(blue)*/
+		border-collapse: collapse;/* 태그사이의 간격을 제거 : margin */
+		padding :8px; /* 셀의 값과 테두리의 간격. 셀 내부의 여백 */
+}
+td{ text-align: center;}
+</style>
+</head>
+<body>
+<table>
+<tr>
+<th rowspan="2">지역</th><th colspan="2">27일(목)</th>
+<th colspan="2">28일(금)</th><th colspan="2">29일(토)</th>
+</tr>
+<tr><td>오전</td><td>오후</td><td>오전</td><td>오후</td><td>오전</td><td>오후</td></tr>
+
+<tr><td>서울<br>경기도</td>
+<td colspan="3" rowspan="2"><img src="../img/shine.png"></td>
+<td colspan="3" rowspan="2"><img src="../img/rain.png"></td>
+</tr>
+
+<tr><td>제주도</td></tr>
+</table>
+</body>
+</html>
